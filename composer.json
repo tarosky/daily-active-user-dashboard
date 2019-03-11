@@ -1,0 +1,22 @@
+{
+    "name": "tarosky/daily-active-user-dashboard",
+    "description": "Record DAU and display them on WordPress dashboard.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Tarosky INC.",
+            "email": "info@tarosky.co.jp"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Tarosky\\Dashboard\\DAU": "app"
+        }
+    }
+}
